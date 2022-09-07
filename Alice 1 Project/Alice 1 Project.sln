@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alice 1 Project", "Alice 1 Project\Alice 1 Project.csproj", "{B1FE1C57-4294-4D12-B820-B32E1C7ADF99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1FE1C57-4294-4D12-B820-B32E1C7ADF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FE1C57-4294-4D12-B820-B32E1C7ADF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FE1C57-4294-4D12-B820-B32E1C7ADF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FE1C57-4294-4D12-B820-B32E1C7ADF99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70ABE656-749F-4F01-B52D-A5BD7E0E73D4}
+	EndGlobalSection
+EndGlobal
