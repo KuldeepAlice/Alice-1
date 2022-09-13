@@ -26,12 +26,6 @@ namespace Alice_1_Project.Page
         public void GoToEmployeePage(IWebDriver driver)
         {
             //Navigate to Employee Page
-            IWebElement AdministrationDropdown = driver.FindElement(By.XPath("/html/body/div[3]/div/div/ul/li[5]/a"));
-            AdministrationDropdown.Click();
-            WaitHelpers.WaitToBeClickable(driver, "XPath", "/html/body/div[3]/div/div/ul/li[5]/ul/li[2]/a");
-            IWebElement EmployeePage = driver.FindElement(By.XPath("/html/body/div[3]/div/div/ul/li[5]/ul/li[2]/a"));
-            EmployeePage.Click();
-
         }
     }
 }

@@ -33,7 +33,7 @@ namespace Alice_1_Project.Tests
 
             //Edit Tm
             homepageObj.GoToTMPage(driver);
-            TMpageObj.EditTM(driver);
+            //TMpageObj.EditTM(driver);
         }
 
         [Test, Order(3)]

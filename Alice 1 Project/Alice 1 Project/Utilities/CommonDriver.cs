@@ -10,7 +10,7 @@ namespace Alice_1_Project.Utilities
         public IWebDriver driver;
 
 
-        [SetUp]
+        [OneTimeSetUp]
         public void LoginActions()
         {
             // Open Chrome Browser
@@ -20,9 +20,13 @@ namespace Alice_1_Project.Utilities
             Loginpage loginpageobj = new Loginpage();
             loginpageobj.loginsteps(driver);
 
+
+
+
+
         }
 
-        [TearDown]
+        [OneTimeTearDown]
         public void CloseTestRun()
         {
             driver.Quit();

@@ -1,32 +1,38 @@
 ﻿using Alice_1_Project.Page;
 using Alice_1_Project.Utilities;
 using NUnit.Framework;
+using System.ComponentModel;
 
 namespace Alice_1_Project.Tests
 {
     [Parallelizable]
     [TestFixture]
-     public class Employee_Tests: CommonDriver
+     public class EmployeeTests: CommonDriver
     {
+        HomePage homepageObj = new HomePage();
+        EmployeePage employeepageObj = new EmployeePage();
+     
 
         [Test]
+     
         public void CreateEM()
         {
-            EmployeePage employeepageObj = new EmployeePage();
+            Thread.Sleep(2000);
+            homepageObj.GoToEmployeePage(driver);
             employeepageObj.CreateEM(driver);
         }
 
         [Test]
         public void EditEM()
         {
-            EmployeePage employeepageObj = new EmployeePage();
+            homepageObj.GoToEmployeePage(driver);
             employeepageObj.EditEM(driver);
         }
 
         [Test]
         public void DeleteEM()
         {
-            EmployeePage employeepageObj = new EmployeePage();
+            homepageObj.GoToEmployeePage(driver);
             employeepageObj.DeleteEM(driver);
         }
     }
