@@ -134,7 +134,7 @@ namespace Alice_1_Project.Page
         public string GetEditedCode(IWebDriver driver)
         {
             IWebElement editedCode = driver.FindElement(By.XPath("//*[@id='tmsGrid']/div[3]/table/tbody/tr[last()]/td[1]"));
-            return editedCode.Text; 
+            return editedCode.Text;
         }
         public string GetEditedPrice(IWebDriver driver)
         {
